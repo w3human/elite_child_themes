@@ -1,0 +1,290 @@
+/*
+ Theme Name: Liber Child
+ Theme URI: http://www.anarieldesign.com/themes/
+ Description: Liber Child Theme
+ Author: Anariel Design
+ Author URI: http://www.anarieldesign.com/
+ Template: liber
+ Version: 1.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: left-sidebar, right-sidebar, grid-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, footer-widgets, food-and-drink, blog
+*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cormorant Infant', serif; 
+}*/
+
+
+
+
+.pre-footer h3{
+    font-weight: bold;
+    color: #024985;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+h6{
+    font-size: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.datepick-popup {
+    z-index: 99999;
+}
+
+/* HAEDER */
+.main-navigation ul ul {
+    background-color: #f1f1ec;
+    border: 2px solid #f1f1ec;
+}
+
+@media screen and (min-width: 768px) {
+
+    #primary-menu > li:last-child:before{
+        content: ' \2022';
+    }
+    
+}
+
+.book-now{
+    margin: 0px 0px 0px 0px;
+    padding: 5px 10px;
+
+    color: #fff !important;
+
+    background: linear-gradient(to bottom,#f8970d 0,#ea7a02 100%);
+    position: relative;
+    top: 5px;
+    margin-left:  20px;
+}
+
+.book-now:hover{
+    border-bottom: 1px solid transparent;
+}
+
+.book-now:before {
+    color: #3a8014;
+    content: ' \2022';
+    opacity: .25;
+    top: 7px;
+    position: absolute;
+}
+
+#main_booking_top {background:#025576;color:#fff;padding:15px;position:absolute;right:5%;top:115px;}
+#main_booking_top .bt-close {font-size:0;width:25px;height:25px;background:#fff;position:absolute;right:0;top:0;cursor:pointer;}
+#main_booking_top .bt-close:before {content:"X";position:absolute;top:0;right:0;font-size:17px;width:100%;text-align:center;line-height:25px;color:#37aedf;}
+#main_booking_top .header__book__module {padding: 30px 0 0 0;}
+#main_booking_top .header__book__module .sblink a {color: #fff;text-decoration: none;}
+#main_booking_top .header__book__module .sblink .sbLinkSp {padding: 0 10px 0 0;}
+#main_booking_top .header__book__module .sblink a.t-selected {font-weight: 700;text-decoration: underline;}
+#main_booking_top .header__book__module .as-itemi {float: left;width: 100%;margin: 0;}
+#main_booking_top .header__book__module .as-itemi .k-button {min-height: 0;line-height: 1;padding: 10px 20px; background-color: rgb(9, 156, 200); color:  #fff; border: 0px;}
+#main_booking_top .header__book__module .as-itemi .k-button:hover {background:#2cb2e0;}
+
+#main_booking_top .rescnuo a:hover{
+    color: #099cc8;
+}
+
+@media screen and (max-width: 767px) {
+    .main-navigation.toggled{
+        background: #f1f1ec !important;
+    }
+}
+
+.topbar{
+    background-color: #f1f1ec; 
+    text-align: right; 
+    padding: 10px 6%; 
+    color: #099cc8
+}
+
+@media (max-width: 768px) {
+    .topbar{
+        display: none !important;
+    }
+}
+
+/* FOOTER */
+.site-footer .menu{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.site-footer .menu li{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.site-footer .menu li:after{
+    content: "|";
+    padding: 0 5px;
+}
+
+.site-footer .menu li:last-child:after{
+    content: "";
+    padding: 0 5px;
+}
+
+a.scroll-to-top{
+    margin-top: -22px !important;
+}
+
+.pre-footer .wp-social-link{
+    padding: 0px !important;
+}
+
+/* CONTENT */
+@media (max-width: 768px) {
+    .entry-content{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+hr.wp-block-separator{
+    background-color: #dbdad1;
+    opacity: 1;
+}
+
+.content-wrapper{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+@media (min-width: 600px) and (max-width: 781px) {
+    .wp-block-column:nth-child(2n) {
+        margin-left: 0em;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .wp-block-cover{
+        min-height: 50vw !important;
+    }
+
+}
+
+.wp-block-group.alignfull .wp-block-group__inner-container > .wp-block-group{
+
+    width: 1180px;
+    margin: auto;
+
+}
+
+.page-template-default .is-type-video iframe, 
+.page-template-sidebar-page.no-sidebar .is-type-video iframe, 
+.page-template-grid-page.no-sidebar .is-type-video iframe, 
+.page-template-editor-page .is-type-video iframe{
+    height: 50vw !important;
+}
+
+/* Custom Editor Palette */
+.has-bg-blue-color,
+.wp-block-button.is-style-outline .wp-block-button__link.has-bg-blue-color,
+.entry-content a.wp-block-button__link.is-style-outline.has-bg-blue-color,
+.wp-block-button__link.has-bg-blue-color {
+    color: #004987;
+}
+
+.has-bg-blue-background-color,
+.wp-block-button__link.has-bg-blue-background-color {
+    background-color: #004987;
+}
+
+/*.has-text-blue-color,
+.wp-block-button.is-style-outline .wp-block-button__link.has-text-blue-color,
+.entry-content a.wp-block-button__link.is-style-outline.has-text-blue-color,
+.wp-block-button__link.has-text-blue-color {
+    color: #004987;
+}
+
+.has-text-blue-background-color,
+.wp-block-button__link.has-text-blue-background-color {
+    background-color: #004987;
+}*/
+
+.has-light-blue-color,
+.wp-block-button.is-style-outline .wp-block-button__link.has-light-blue-color,
+.entry-content a.wp-block-button__link.is-style-outline.has-light-blue-color,
+.wp-block-button__link.has-light-blue-color {
+    color: #06b1e2;
+}
+
+.has-light-blue-background-color,
+.wp-block-button__link.has-light-blue-background-color {
+    background-color: #06b1e2;
+}
+
+.has-btn-yellow-color,
+.wp-block-button.is-style-outline .wp-block-button__link.has-btn-yellow-color,
+.entry-content a.wp-block-button__link.is-style-outline.has-btn-yellow-color,
+.wp-block-button__link.has-btn-yellow-color {
+    color: #ffd100;
+}
+
+.has-btn-yellow-background-color,
+.wp-block-button__link.has-btn-yellow-background-color {
+    background-color: #ffd100;
+}
+
+.has-white-color,
+.wp-block-button.is-style-outline .wp-block-button__link.has-white-color,
+.entry-content a.wp-block-button__link.is-style-outline.has-white-color,
+.wp-block-button__link.has-white-color {
+    color: #ffd100;
+}
+
+.has-white-background-color,
+.wp-block-button__link.has-white-background-color {
+    background-color: #ffd100;
+}
+
+/* BUTTONS */
+.wpforms-submit{
+    color: #fff;
+    background-color: #32373c;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.125em;
+    padding: calc(0.667em + 2px) calc(1.333em + 2px);
+    text-align: center;
+    text-decoration: none;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+
+    background-color: #F8970C;
+}
