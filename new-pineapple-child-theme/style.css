@@ -22,8 +22,6 @@ h1, h2, h3, h4, h5, h6{
 }*/
 
 
-
-
 .pre-footer h3{
     font-weight: bold;
     color: #024985;
@@ -202,11 +200,8 @@ hr.wp-block-separator{
 
 }
 
-.page-template-default .is-type-video iframe, 
-.page-template-sidebar-page.no-sidebar .is-type-video iframe, 
-.page-template-grid-page.no-sidebar .is-type-video iframe, 
-.page-template-editor-page .is-type-video iframe{
-    height: 50vw !important;
+.block-no-bottom-margin{
+    margin-bottom: 0px !important;
 }
 
 /* Custom Editor Palette */
@@ -262,12 +257,12 @@ hr.wp-block-separator{
 .wp-block-button.is-style-outline .wp-block-button__link.has-white-color,
 .entry-content a.wp-block-button__link.is-style-outline.has-white-color,
 .wp-block-button__link.has-white-color {
-    color: #ffd100;
+    color: #fff;
 }
 
 .has-white-background-color,
 .wp-block-button__link.has-white-background-color {
-    background-color: #ffd100;
+    background-color: #fff;
 }
 
 /* BUTTONS */
