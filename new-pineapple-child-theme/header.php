@@ -24,17 +24,19 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'liber' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
-		<div class="topbar wrapper" style="">
-			<?php if (elite_is_euro()) : ?>
-				Reservations: <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>  
+		<div class="topbar " style="">
+			<div class="wrapper">
+				<?php if (elite_is_euro()) : ?>
+					Reservations: <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>  
 
-			<?php else : ?>
-				Reservations: <a href="tel: 866.237.1785">866.237.1785</a>  
+				<?php else : ?>
+					Reservations: <a href="tel: 866.237.1785">866.237.1785</a>  
 
-			<?php endif; ?>
+				<?php endif; ?>
 
-			|  <a href="https://www.eliteislandresorts.com/bestrateguarantee"><b>BEST RATE GUARANTEE</b></a>
+				|  <a href="https://www.eliteislandresorts.com/bestrateguarantee"><b>BEST RATE GUARANTEE</b></a>
 
+			</div>
 		</div>
 
 	<?php if(get_theme_mod('liber_header_layout') == 'two-row-header' || get_theme_mod('liber_header_layout') == 'two-row-boxed-header' ) : ?>
@@ -178,10 +180,10 @@
 					
 					if (window.innerWidth >= 742) {
 						<?php if (elite_is_euro()) : ?>
-							jQuery('.header-inner').append('<a href="https://eliteislandholidays.com/book/main.aspx?Clear=True&resort=verandah" target="_blank" class="btn book-now " style="display: inline-block;">Book Now</a>');
+							jQuery('.header-inner').append('<a href="https://eliteislandholidays.com/book/main.aspx?Clear=True&resort=pineapple" target="_blank" class="btn book-now " style="display: inline-block;">Book Now</a>');
 
 						<?php else : ?>
-							jQuery('.header-inner').append('<a href="https://verandah.eliteislandvacations.com/" 	target="_blank" class="btn book-now main_booking_top_link" style="display: inline-block;" onclick="event.preventDefault();">Book Now</a>');
+							jQuery('.header-inner').append('<a href="https://pineapple.eliteislandvacations.com/" 	target="_blank" class="btn book-now main_booking_top_link" style="display: inline-block;" onclick="event.preventDefault();">Book Now</a>');
 
 						<?php endif; ?>
 						

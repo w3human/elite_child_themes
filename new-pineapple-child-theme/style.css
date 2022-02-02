@@ -21,6 +21,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Cormorant Infant', serif; 
 }*/
 
+body{
+    color: #004987;
+}
 
 .pre-footer h3{
     font-weight: bold;
@@ -60,6 +63,12 @@ h6{
 }
 
 /* HAEDER */
+.site-branding{
+    position: absolute;
+    top:  0px;
+    width: 205px;
+}
+
 .main-navigation ul ul {
     background-color: #f1f1ec;
     border: 2px solid #f1f1ec;
@@ -77,9 +86,10 @@ h6{
     margin: 0px 0px 0px 0px;
     padding: 5px 10px;
 
-    color: #fff !important;
+    color: #4389C6 !important;
+    font-weight: bold;
 
-    background: linear-gradient(to bottom,#f8970d 0,#ea7a02 100%);
+    background: #fad000;
     position: relative;
     top: 5px;
     margin-left:  20px;
@@ -118,11 +128,10 @@ h6{
     }
 }
 
-.topbar{
-    background-color: #f1f1ec; 
+.topbar{ 
     text-align: right; 
-    padding: 10px 6%; 
-    color: #099cc8
+    padding: 10px 7.5%; 
+    color: #004987;
 }
 
 @media (max-width: 768px) {
