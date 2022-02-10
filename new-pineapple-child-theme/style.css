@@ -69,9 +69,24 @@ h6{
     width: 205px;
 }
 
+.main-navigation{
+    font-weight: bold;
+}
+
+.main-navigation a{
+    font-size: 14px;
+}
+
 .main-navigation ul ul {
     background-color: #f1f1ec;
     border: 2px solid #f1f1ec;
+}
+
+@media screen and (min-width: 768px) {
+    #primary-menu > li:before, .main-navigation ul ul a:hover, .main-navigation ul ul > li.focus > a {
+        color: #fad000 !important;
+        opacity: 1;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -86,12 +101,12 @@ h6{
     margin: 0px 0px 0px 0px;
     padding: 5px 10px;
 
-    color: #4389C6 !important;
+    color: #004987 !important;
     font-weight: bold;
 
     background: #fad000;
     position: relative;
-    top: 5px;
+    top: 2px;
     margin-left:  20px;
 }
 
@@ -107,7 +122,7 @@ h6{
     position: absolute;
 }
 
-#main_booking_top {background:#025576;color:#fff;padding:15px;position:absolute;right:5%;top:115px;}
+#main_booking_top {background:#025576;color:#fff;padding:15px;position:absolute;right:5%;top:131px;}
 #main_booking_top .bt-close {font-size:0;width:25px;height:25px;background:#fff;position:absolute;right:0;top:0;cursor:pointer;}
 #main_booking_top .bt-close:before {content:"X";position:absolute;top:0;right:0;font-size:17px;width:100%;text-align:center;line-height:25px;color:#37aedf;}
 #main_booking_top .header__book__module {padding: 30px 0 0 0;}
@@ -117,6 +132,7 @@ h6{
 #main_booking_top .header__book__module .as-itemi {float: left;width: 100%;margin: 0;}
 #main_booking_top .header__book__module .as-itemi .k-button {min-height: 0;line-height: 1;padding: 10px 20px; background-color: rgb(9, 156, 200); color:  #fff; border: 0px;}
 #main_booking_top .header__book__module .as-itemi .k-button:hover {background:#2cb2e0;}
+#main_booking_top a {color: #fff !important;}
 
 #main_booking_top .rescnuo a:hover{
     color: #099cc8;
