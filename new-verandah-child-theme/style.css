@@ -97,7 +97,7 @@ h6{
     position: absolute;
 }
 
-#main_booking_top {background:#025576;color:#fff;padding:15px;position:absolute;right:5%;top:115px;}
+#main_booking_top {background:#025576;color:#fff;padding:15px;position:absolute;right:5%;top:115px; font-size: 16px;}
 #main_booking_top .bt-close {font-size:0;width:25px;height:25px;background:#fff;position:absolute;right:0;top:0;cursor:pointer;}
 #main_booking_top .bt-close:before {content:"X";position:absolute;top:0;right:0;font-size:17px;width:100%;text-align:center;line-height:25px;color:#37aedf;}
 #main_booking_top .header__book__module {padding: 30px 0 0 0;}
@@ -107,6 +107,10 @@ h6{
 #main_booking_top .header__book__module .as-itemi {float: left;width: 100%;margin: 0;}
 #main_booking_top .header__book__module .as-itemi .k-button {min-height: 0;line-height: 1;padding: 10px 20px; background-color: rgb(9, 156, 200); color:  #fff; border: 0px;}
 #main_booking_top .header__book__module .as-itemi .k-button:hover {background:#2cb2e0;}
+
+#main_booking_top .rescnuo a{
+    color: #fff;
+}
 
 #main_booking_top .rescnuo a:hover{
     color: #099cc8;

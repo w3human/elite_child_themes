@@ -223,7 +223,20 @@
 			        }
 			        else {
 
-						jQuery('#primary-menu').append('<li class="menu-item-book"><a href="https://verandah.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: block; text-align: center;" onclick="event.preventDefault();">Book Now</a></li>');
+			        	<?php if (elite_is_euro()) : ?>
+
+							jQuery('#primary-menu').append('<li class="menu-item-book"><a href="https://eliteislandholidays.com/book/main.aspx?Clear=True&resort=verandah" target="_blank" class="btn book-now main_booking_top_link" style="display: block; text-align: center;">Book Now</a></li>');
+
+
+						<?php else : ?>
+							jQuery('#primary-menu').append('<li class="menu-item-book"><a href="https://verandah.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: block; text-align: center;">Book Now</a></li>');
+							
+
+
+						<?php endif; ?>
+
+
+
 			        }
 				}
 
