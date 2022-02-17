@@ -5,6 +5,11 @@ function theme_enqueue_styles() {
 	wp_enqueue_style( 'child-style', get_stylesheet_uri(), array( 'parent-style' ) );
 
 	wp_enqueue_script( 'book-now-js', 'https://verandah.eliteislandvacations.com/box.aspx' );
+
+	wp_enqueue_script( 'themetheme', get_stylesheet_directory_uri().'/themetheme.js' );
+
+	wp_localize_script('themetheme', '_is_euro', (elite_is_euro())?'1':'0');
+
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
