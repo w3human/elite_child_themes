@@ -148,7 +148,7 @@
 				</a> -->    
 			</div><!-- .header-inner -->
 
-			<div id="main_booking_top" style="z-index: 99;">
+			<div id="main_booking_top" style="z-index: 99; display: none;">
 				<div class="header__book wrap">
 					<div class="bt-close">Close</div>
 

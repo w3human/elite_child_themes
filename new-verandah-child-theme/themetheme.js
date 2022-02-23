@@ -66,16 +66,25 @@ function elite_book_now() {
     }
 }
 
-elite_book_now();
 
 window.addEventListener('resize', function(event) {
     elite_book_now();
 }, true);
 
 window.addEventListener('load', function(event) {
+    elite_book_now();
 
-    jQuery(".popup .bt-close").click(function(){
-        jQuery(".popup").hide();
+    jQuery('.open-booking-pop-widget').each(function() {
+        jQuery(this).click(function(event) {
+            event.preventDefault();
+            jQuery(".popup#booking-pop-widget").addClass('open');
+        });
+    });
+
+    jQuery(".popup .bt-close").each(function() {
+        jQuery(this).click(function() {
+            jQuery(".popup").each(function() { jQuery(this).removeClass('open') });
+        });
     });
 
 });

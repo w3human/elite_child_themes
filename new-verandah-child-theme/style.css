@@ -143,10 +143,16 @@ h6{
 
 .popup .popup-inner{
     width: 90%;
+    max-width: 450px;
     
-    position: absolute;
+    position: relative;
+
+   /* position: absolute;
     top: 5%;
-    left: 5%;
+    left: 5%;*/
+
+    margin: auto;
+    margin-top: 145px;
 
     padding: 15px;
 

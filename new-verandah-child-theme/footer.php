@@ -58,7 +58,7 @@
 
 <?php wp_footer(); ?>
 
-<div class="popup open">
+<div class="popup" id="booking-pop-widget">
 
 	<div class="popup-inner">
 
