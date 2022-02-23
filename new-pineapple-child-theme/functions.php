@@ -68,3 +68,38 @@ function elite_is_euro() {
     return in_array($geo_result->country_code, $euro_list);
 
 }
+
+function shortcode_geoip($atts = [], $content = '') {
+
+	// normalize attribute keys, lowercase
+    $atts = array_change_key_case((array)$atts, CASE_LOWER);
+ 
+    // override default attributes with user attributes
+    $attributes = shortcode_atts([
+        // 'template_style' => $this->opt_shortcode_styling
+        'for' =>  'us',
+    ], $atts);	
+
+    if ($attributes['for'] == 'europe') {
+
+    	if (elite_is_euro()) {
+
+    		return $content;
+
+    	}
+
+    }
+    elseif ($attributes['for'] == 'us') {
+
+    	if (! elite_is_euro()) {
+
+    		return $content;
+
+    	}
+
+    }	
+
+    return '';
+}
+
+add_shortcode('geoip', 'shortcode_geoip');
