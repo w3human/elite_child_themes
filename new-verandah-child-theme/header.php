@@ -25,16 +25,17 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'liber' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="topbar wrapper" style="">
-			<?php if (elite_is_euro()) : ?>
-				Reservations: <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>  
+			<div class="inner">
+				<?php if (elite_is_euro()) : ?>
+					Reservations: <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>  
 
-			<?php else : ?>
-				Reservations: <a href="tel: 866.237.1785">866.237.1785</a>  
+				<?php else : ?>
+					Reservations: <a href="tel: 866.237.1785">866.237.1785</a>  
 
-			<?php endif; ?>
+				<?php endif; ?>
 
-			|  <a href="https://www.eliteislandresorts.com/bestrateguarantee"><b>BEST RATE GUARANTEE</b></a>
-
+				|  <a href="https://www.eliteislandresorts.com/bestrateguarantee"><b>BEST RATE GUARANTEE</b></a>
+			</div>
 		</div>
 
 	<?php if(get_theme_mod('liber_header_layout') == 'two-row-header' || get_theme_mod('liber_header_layout') == 'two-row-boxed-header' ) : ?>
@@ -147,27 +148,27 @@
 					Book Now
 				</a> -->    
 			</div><!-- .header-inner -->
-
-			<div id="main_booking_top" style="z-index: 99; display: none;">
-				<div class="header__book wrap">
-					<div class="bt-close">Close</div>
-
-					<div clas ="rescnuo" style="color: #fff; font-weight: bold; text-align: center">
-						<?php if (elite_is_euro()) : ?>
-							RESERVATIONS - <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>
-
-						<?php else : ?>
-							RESERVATIONS - <a href="tel: 800.858.4618">800.858.4618</a>
-						
-						<?php endif;?>
-
-					</div>
-					<div class="header__book__module" id="desktopvinetcontainer">
-						<div id="sbVinet"></div>
-					</div>
-				</div>
-			</div>
 		</div><!-- .wrapper -->
 		<?php endif; ?>
+
+		<div id="main_booking_top" style="z-index: 99; display: none;">
+			<div class="header__book wrap">
+				<div class="bt-close">Close</div>
+
+				<div clas ="rescnuo" style="color: #fff; font-weight: bold; text-align: center">
+					<?php if (elite_is_euro()) : ?>
+						RESERVATIONS - <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>
+
+					<?php else : ?>
+						RESERVATIONS - <a href="tel: 800.858.4618">800.858.4618</a>
+					
+					<?php endif;?>
+
+				</div>
+				<div class="header__book__module" id="desktopvinetcontainer">
+					<div id="sbVinet"></div>
+				</div>
+			</div>
+		</div>
 	</header><!-- #masthead -->
 	<div id="content" class="site-content">

@@ -68,33 +68,17 @@ h6{
 @media screen and (min-width: 768px) {
 
     #primary-menu > li:last-child:before{
-        content: ' \2022';
+        content: '';
     }
     
 }
 
 .book-now{
     margin: 0px 0px 0px 0px;
-    padding: 5px 10px;
-
+    padding: 15px 20px !important;
     color: #fff !important;
-
     background: linear-gradient(to bottom,#f8970d 0,#ea7a02 100%);
-    position: relative;
-    top: 5px;
     margin-left:  20px;
-}
-
-.book-now:hover{
-    border-bottom: 1px solid transparent;
-}
-
-.book-now:before {
-    color: #3a8014;
-    content: ' \2022';
-    opacity: .25;
-    top: 7px;
-    position: absolute;
 }
 
 #main_booking_top {background:#025576;color:#fff;padding:15px;position:absolute;right:5%;top:115px; font-size: 16px;}

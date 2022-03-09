@@ -6,7 +6,7 @@ function sbVinetDone() {
 }
 
 function elite_book_now() {
-    jQuery('.main_booking_top_link').remove();
+    //jQuery('.main_booking_top_link').remove();
     jQuery('#primary-menu .menu-item-book').remove();
 
     jQuery("#main_booking_top").hide();
@@ -14,10 +14,10 @@ function elite_book_now() {
     
     if (window.innerWidth >= 742) {
         if (_is_euro == '1' ) {
-            jQuery('.header-inner').append('<a href="https://eliteislandholidays.com/book/main.aspx?Clear=True&resort=verandah" target="_blank" class="btn book-now " style="display: inline-block;">Book Now</a>');
+            jQuery('.header-inner #primary-menu').append('<li class="menu-item-book"><a href="https://eliteislandholidays.com/book/main.aspx?Clear=True&resort=verandah" target="_blank" class="btn book-now " style="display: inline-block;">Book Now</a></li>');
         }
         else {
-            jQuery('.header-inner').append('<a href="https://verandah.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: inline-block;" onclick="event.preventDefault();">Book Now</a>');
+            jQuery('.header-inner #primary-menu').append('<li class="menu-item-book"><a href="https://verandah.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: inline-block;" onclick="event.preventDefault();">Book Now</a></li>');
         }
 
         jQuery(".main_booking_top_link").hover(
@@ -65,7 +65,6 @@ function elite_book_now() {
         }
     }
 }
-
 
 window.addEventListener('resize', function(event) {
     elite_book_now();
