@@ -81,7 +81,7 @@ h6{
     margin-left:  20px;
 }
 
-#main_booking_top {background:#025576;color:#fff;padding:15px;position:absolute;right:5%;top:115px; font-size: 16px;}
+#main_booking_top {background:#025576;color:#fff;padding:15px;position:absolute;right:5%;top:156px; font-size: 16px;}
 #main_booking_top .bt-close {font-size:0;width:25px;height:25px;background:#fff;position:absolute;right:0;top:0;cursor:pointer;}
 #main_booking_top .bt-close:before {content:"X";position:absolute;top:0;right:0;font-size:17px;width:100%;text-align:center;line-height:25px;color:#37aedf;}
 #main_booking_top .header__book__module {padding: 30px 0 0 0;}

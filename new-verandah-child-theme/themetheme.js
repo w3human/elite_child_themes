@@ -11,22 +11,41 @@ function elite_book_now() {
 
     jQuery("#main_booking_top").hide();
     jQuery("#mobile_booking_top").hide();
-    
+
+
     if (window.innerWidth >= 742) {
         if (_is_euro == '1' ) {
             jQuery('.header-inner #primary-menu').append('<li class="menu-item-book"><a href="https://eliteislandholidays.com/book/main.aspx?Clear=True&resort=verandah" target="_blank" class="btn book-now " style="display: inline-block;">Book Now</a></li>');
         }
         else {
-            jQuery('.header-inner #primary-menu').append('<li class="menu-item-book"><a href="https://verandah.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: inline-block;" onclick="event.preventDefault();">Book Now</a></li>');
+            jQuery('.header-inner #primary-menu').append('<li class="menu-item-book"><a href="https://verandah.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: inline-block;">Book Now</a></li>');
         }
 
         jQuery(".main_booking_top_link").hover(
             function() {
-                jQuery("#main_booking_top").show(); 
-                jQuery("#main_booking_top").slideDown();
-            },
-            function() {
-                //jQuery("#main_booking_top").slideUp();
+
+                if (window.innerWidth >= 742 && window.innerWidth <= 1239) {            
+                    //jQuery(".popup#booking-pop-widget").addClass('open');
+                }
+                else {
+                    jQuery("#main_booking_top").show(); 
+                    jQuery("#main_booking_top").slideDown();
+                }
+
+            }
+        );
+
+        jQuery(".main_booking_top_link").click(
+            function(event) {
+                event.preventDefault();
+                
+                if (window.innerWidth >= 742 && window.innerWidth <= 1239) {            
+                    jQuery(".popup#booking-pop-widget").addClass('open');
+                }
+                else {
+                   jQuery("#mobile_booking_top").toggle();
+                }
+
             }
         );
         
@@ -36,7 +55,7 @@ function elite_book_now() {
         });
      
         jQuery(".mobile_booking_top_link").click(function(){
-            jQuery("#mobile_booking_top").toggle();
+            
         });
 
         jQuery(".click-content").mouseover(function(){
@@ -47,14 +66,12 @@ function elite_book_now() {
             jQuery(".click-info").css("display", "none");
         });
     
-        jQuery('.main_booking_top_link').click(function(){
+        /*jQuery('.main_booking_top_link').click(function(){
             jQuery("html, body").animate({ scrollTop: 0 }, "slow");
             jQuery("#main_booking_top").show(); 
             jQuery("#main_booking_top").slideDown();
             //return false;
-        });
-
-
+        });*/
     }
     else {
         if (_is_euro == '1' ) {
