@@ -62,3 +62,39 @@ function elite_is_euro() {
     return in_array($geo_result->country_code, $euro_list);
 
 }
+
+add_shortcode('MarketingCloudSignUp', function($atts, $content) {
+
+	ob_start();
+	?>
+
+	<form action="https://cl.s12.exct.net/DEManager.aspx" name="subscribeForm" method="post" class="MarketingCloudSignUp">
+	    <input type="hidden" name="_clientID" value="534001845">
+	    <input type="hidden" name="_deExternalKey" value="C4FCA4BF-41E4-488F-BDE8-16B9745D938A"><p></p>
+	   	<input type="hidden" name="_action" value="add">
+	    <input type="hidden" name="_returnXML" value="0">
+
+	    <input type="hidden" name="_successURL" value="https://theverandah21.wpengine.com/thank-you-for-subscribing/">
+	    <input type="hidden" name="_errorURL" value="https://example.com/Failed">
+
+	    <label>First Name:</label>
+	    <input type="text" name="First Name" required="">
+	    
+	    <label>Last Name:</label>
+	    <input type="text" name="Last Name" required="">
+	    
+	    <label>Email:</label>
+	    <input type="text" name="Email Address" required="">
+	    
+	    <button type="submit">Sign Up</button>
+	</form>
+
+	<style type="text/css">
+		.MarketingCloudSignUp label{display: block;}
+		.MarketingCloudSignUp input{width: 100%;}
+		.MarketingCloudSignUp button{background: #F8970C; border: 0; color: #fff; margin-top: 10px; padding: calc(0.667em + 2px) calc(1.333em + 2px);}
+	</style>
+	<?php
+
+	return ob_get_clean();
+});

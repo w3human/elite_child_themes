@@ -5,6 +5,10 @@ function theme_enqueue_styles() {
 	wp_enqueue_style( 'child-style', get_stylesheet_uri(), array( 'parent-style' ) );
 
 	wp_enqueue_script( 'book-now-js', 'https://verandah.eliteislandvacations.com/box.aspx' );
+
+	wp_enqueue_script( 'themetheme', get_stylesheet_directory_uri().'/themetheme.js' );
+
+	wp_localize_script('themetheme', '_is_euro', (elite_is_euro())?'1':'0');
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
@@ -103,3 +107,41 @@ function shortcode_geoip($atts = [], $content = '') {
 }
 
 add_shortcode('geoip', 'shortcode_geoip');
+
+
+add_shortcode('MarketingCloudSignUp', function($atts, $content) {
+
+	ob_start();
+	?>
+
+	<form action="https://cl.s12.exct.net/DEManager.aspx" name="subscribeForm" method="post" class="MarketingCloudSignUp">
+	    <input type="hidden" name="_clientID" value="534001845" />
+	    <input type="hidden" name="_deExternalKey" value="5EBF6846-B859-42BE-A9DD-14C047E42230" />
+
+	    <input type="hidden" name="_action" value="add" />
+	    <input type="hidden" name="_returnXML" value="0" />
+
+	    <input type="hidden" name="_successURL" value="https://pineapple21.wpengine.com/thank-you-for-subscribing/">
+	    <input type="hidden" name="_errorURL" value="https://example.com/Failed">
+
+	    <label>First Name:</label>
+	    <input type="text" name="First Name" required="">
+	    
+	    <label>Last Name:</label>
+	    <input type="text" name="Last Name" required="">
+	    
+	    <label>Email:</label>
+	    <input type="text" name="Email Address" required="">
+	    
+	    <button type="submit">Sign Up</button>
+	</form>
+
+	<style type="text/css">
+		.MarketingCloudSignUp label{display: block;}
+		.MarketingCloudSignUp input{width: 100%;}
+		.MarketingCloudSignUp button{background: #F8970C; border: 0; color: #fff; margin-top: 10px; padding: calc(0.667em + 2px) calc(1.333em + 2px);}
+	</style>
+	<?php
+
+	return ob_get_clean();
+});

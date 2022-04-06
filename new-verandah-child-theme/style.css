@@ -75,12 +75,28 @@ h6{
 
 .book-now{
     margin: 0px 0px 0px 0px;
-    padding: 15px 20px !important;
-    color: #fff !important;
-    background: linear-gradient(to bottom,#f8970d 0,#ea7a02 100%);
+    padding: 5px 10px;
+
+    color: #004987 !important;
+    font-weight: bold;
+
+    background: #fad000;
+    position: relative;
+    top: 2px;
     margin-left:  20px;
 }
 
+.book-now:hover{
+    border-bottom: 1px solid transparent;
+}
+
+.book-now:before {
+    color: #3a8014;
+    content: ' \2022';
+    opacity: .25;
+    top: 7px;
+    position: absolute;
+}
 #main_booking_top {background:#025576;color:#fff;padding:15px;position:absolute;right:5%;top:156px; font-size: 16px;}
 #main_booking_top .bt-close {font-size:0;width:25px;height:25px;background:#fff;position:absolute;right:0;top:0;cursor:pointer;}
 #main_booking_top .bt-close:before {content:"X";position:absolute;top:0;right:0;font-size:17px;width:100%;text-align:center;line-height:25px;color:#37aedf;}

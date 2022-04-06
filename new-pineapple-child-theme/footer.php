@@ -56,6 +56,44 @@
 		</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<div class="popup" id="booking-pop-widget">
+
+	<div class="popup-inner">
+
+		<div id="" style="z-index: 99;">
+			<div class=" ">
+				<div class="bt-close">Close</div>
+
+				<div clas ="rescnuo" style="font-weight: bold; text-align: center">
+					<?php if (elite_is_euro()) : ?>
+						RESERVATIONS - <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>
+
+					<?php else : ?>
+						RESERVATIONS - <a href="tel: 800.858.4618">800.858.4618</a>
+					
+					<?php endif;?>
+
+				</div>
+				<div class="header__book__module" id="desktopvinetcontainer">
+					<div class="form-div-stay4 form-accom">
+						
+						<div class="sblink link-desktop">
+							<a href="javascript:sbVinetonT(true,'sbVinet-footer')" id="sbVinet4lkwf" class="t-linkb t-linka t-default">Flight + Resort</a>
+
+							<span class="sbLinkSp">&nbsp;</span>
+							
+							<a href="javascript:sbVinetonT(false,'sbVinet-footer')" id="sbVinet4lkwr" class="t-linkb t-linko t-selected">Resort Only</a>
+						</div>
+
+						<div id="sbVinet-footer"></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <?php wp_footer(); ?>
 
 </body>
