@@ -121,7 +121,7 @@ add_shortcode('MarketingCloudSignUp', function($atts, $content) {
 	    <input type="hidden" name="_action" value="add" />
 	    <input type="hidden" name="_returnXML" value="0" />
 
-	    <input type="hidden" name="_successURL" value="https://pineapple21.wpengine.com/thank-you-for-subscribing/">
+	    <input type="hidden" name="_successURL" value="https://www.pineapplebeachclub.com/thank-you-for-subscribing/">
 	    <input type="hidden" name="_errorURL" value="https://example.com/Failed">
 
 	    <label>First Name:</label>
