@@ -70,7 +70,7 @@ add_shortcode('MarketingCloudSignUp', function($atts, $content) {
 
 	<form action="https://cl.s12.exct.net/DEManager.aspx" name="subscribeForm" method="post" class="MarketingCloudSignUp">
 	    <input type="hidden" name="_clientID" value="534001845">
-	    <input type="hidden" name="_deExternalKey" value="C4FCA4BF-41E4-488F-BDE8-16B9745D938A"><p></p>
+	    <input type="hidden" name="_deExternalKey" value="C4FCA4BF-41E4-488F-BDE8-16B9745D938A">
 	   	<input type="hidden" name="_action" value="add">
 	    <input type="hidden" name="_returnXML" value="0">
 
