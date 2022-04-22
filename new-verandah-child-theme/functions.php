@@ -75,7 +75,7 @@ add_shortcode('MarketingCloudSignUp', function($atts, $content) {
 	    <input type="hidden" name="_returnXML" value="0">
 
 	    <input type="hidden" name="_successURL" value="https://www.theverandahantigua.com/thank-you-for-subscribing/">
-	    <input type="hidden" name="_errorURL" value="https://example.com/Failed">
+	    <input type="hidden" name="_errorURL" value="https://www.theverandahantigua.com/error-with-subscribing/">
 
 	    <label>First Name:</label>
 	    <input type="text" name="First Name" required="">
