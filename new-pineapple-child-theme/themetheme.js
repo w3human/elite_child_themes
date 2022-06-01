@@ -70,7 +70,7 @@ function elite_book_now() {
     }
     else {
         // add euro here
-        jQuery('#primary-menu').append('<li class="menu-item-book"><a href="https://verandah.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: block; text-align: center;" onclick="event.preventDefault();">Book Now</a></li>');
+        jQuery('#primary-menu').append('<li class="menu-item-book"><a href="https://pineapple.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: block; text-align: center;" onclick="event.preventDefault();">Book Now</a></li>');
     }
 }
 

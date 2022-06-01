@@ -4,7 +4,7 @@ function theme_enqueue_styles() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'child-style', get_stylesheet_uri(), array( 'parent-style' ) );
 
-	wp_enqueue_script( 'book-now-js', 'https://verandah.eliteislandvacations.com/box.aspx' );
+	wp_enqueue_script( 'book-now-js', 'https://www.eliteislandvacations.com/box?pid=26' );
 
 	wp_enqueue_script( 'themetheme', get_stylesheet_directory_uri().'/themetheme.js' );
 
@@ -48,6 +48,11 @@ function theme_child_after_setup() {
 			'color' => '#efeedd',
 		),
 		array(
+			'name'  => esc_html__( 'Red', 'liber' ),
+			'slug'  => 'color-red',
+			'color' => '#62373a',
+		),
+		array(
 			'name'  => esc_html__( 'White', 'liber' ),
 			'slug'  => 'color-white',
 			'color' => '#ffffff',
@@ -62,6 +67,21 @@ function theme_child_after_setup() {
 }
 
 add_action( 'after_setup_theme', 'theme_child_after_setup', 20 );
+
+
+function elite_theme_blocks_enqueue() {
+	wp_register_style(
+		'yatco-client-side', 
+		get_stylesheet_directory_uri().'/editor.css',
+		false, 
+		null, 
+		false
+	);
+
+	wp_enqueue_style('yatco-client-side');
+}
+
+add_action( 'enqueue_block_editor_assets', 'elite_theme_blocks_enqueue' );
 
 function elite_is_euro() {
 	$euro_list = ['AD', 'AL', 'AT', 'AX', 'BA', 'BE', 'BG', 'BY', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FO', 'FR', 'GB', 'GG', 'GI', 'GR', 'HR', 'HU', 'IE', 'IM', 'IS', 'IT', 'JE', 'LI', 'LT', 'LU', 'LV', 'MC', 'MD', 'ME', 'MK', 'MT', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'RU', 'SE', 'SI', 'SJ', 'SK', 'SM', 'UA', 'VA'];

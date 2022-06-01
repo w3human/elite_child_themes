@@ -1,0 +1,97 @@
+/***** Customizer Custom CSS *****/
+
+.liber-upgrade-thumb img {
+	border: 1px solid #ccc;
+}
+.liber-upgrade-title {
+	color: #000;
+	text-transform: uppercase;
+}
+.liber-upgrade-features {
+	list-style: disc;
+	margin: 0 15px;
+}
+.liber-upgrade-link {
+	position: relative;
+	font-size: 9px;
+	line-height: 1.5;
+	color: #fff;
+	padding: 3px 6px;
+	letter-spacing: 1px;
+	background: #008ec2;
+	text-transform: uppercase;
+}
+.liber-upgrade-link:hover {
+	color: #fff;
+}
+.liber-theme-links-wrap {
+	font-size: 14px;
+	padding: 5px 15px 0;
+}
+.liber-theme-link {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#customize-control-liber_front_posts1,
+#customize-control-liber_front_posts2,
+#customize-control-liber_front_posts3,
+#customize-control-liber_front_posts4,
+#customize-control-liber_front_posts5{
+	border-top: 2px solid #fff;
+	padding-top: 10px;
+}
+#customize-control-liber_front_menu1,
+#customize-control-liber_front_testimonials1,
+#customize-control-liber_front_menu2,
+#customize-control-liber_front_testimonials2,
+#customize-control-liber_front_menu3,
+#customize-control-liber_front_testimonials3,
+#customize-control-liber_front_menu4,
+#customize-control-liber_front_testimonials4,
+#customize-control-liber_front_menu5,
+#customize-control-liber_front_testimonials5,
+#customize-control-liber_panel1_background,
+#customize-control-liber_panel2_background,
+#customize-control-liber_panel3_background,
+#customize-control-liber_panel4_background,
+#customize-control-liber_panel5_background {
+	border-top: 2px solid #fff;
+	margin-top: 15px;
+	padding-top: 10px;
+}
+#customize-control-liber_front_posts1:before,
+#customize-control-liber_front_posts2:before,
+#customize-control-liber_front_posts3:before,
+#customize-control-liber_front_posts4:before,
+#customize-control-liber_front_posts5:before {
+	content: "Recent Posts";
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 20px 0 0 0;
+}
+#customize-control-liber_front_menu1:before,
+#customize-control-liber_front_menu2:before,
+#customize-control-liber_front_menu3:before,
+#customize-control-liber_front_menu4:before,
+#customize-control-liber_front_menu5:before {
+	content: "Food Menu";
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 20px 0 0 0;
+	line-height: 22px;
+}
+#customize-control-liber_front_testimonials1:before,
+#customize-control-liber_front_testimonials2:before,
+#customize-control-liber_front_testimonials3:before,
+#customize-control-liber_front_testimonials4:before,
+#customize-control-liber_front_testimonials5:before {
+	content: "Testimonials";
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 20px 0 0 0;
+	line-height: 22px;
+}

@@ -1,0 +1,1961 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-11 11:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/template-tags.php:55
+msgid "% Comments"
+msgstr ""
+
+#: admin/admin.php:350
+#, php-format
+msgid "%1s is proudly brought to you by %2s. %3s: %4s."
+msgstr ""
+
+#: footer.php:35 footer-custom.php:33
+msgid "&copy;"
+msgstr ""
+
+#: taxonomy-menu_category.php:66
+msgid "&lang;"
+msgstr ""
+
+#: taxonomy-menu_category.php:67
+msgid "&rang;"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:72 inc/template-tags.php:78
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:55
+msgid "1 Comment"
+msgstr ""
+
+#: inc/customizer.php:884
+msgid "100%"
+msgstr ""
+
+#: inc/template-tags.php:142
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/customizer.php:876
+msgid "20%"
+msgstr ""
+
+#: functions/block-patterns.php:59
+msgid "3 Columns - Image and Text"
+msgstr ""
+
+#: inc/customizer.php:877
+msgid "30%"
+msgstr ""
+
+#: inc/customizer.php:878
+msgid "40%"
+msgstr ""
+
+#: inc/customizer.php:879
+msgid "50%"
+msgstr ""
+
+#: inc/customizer.php:880
+msgid "60%"
+msgstr ""
+
+#: inc/customizer.php:881
+msgid "70%"
+msgstr ""
+
+#: inc/customizer.php:882
+msgid "80%"
+msgstr ""
+
+#: inc/customizer.php:883
+msgid "90%"
+msgstr ""
+
+#: functions/block-patterns.php:310
+msgid "About Us Section"
+msgstr ""
+
+#: inc/customizer.php:1350
+msgid "Accent Color"
+msgstr ""
+
+#: admin/admin.php:157
+msgid "Accept restaurant reservations and bookings online."
+msgstr ""
+
+#: inc/customizer.php:480
+msgid ""
+"Add a tagline text to your panel. If the title is enabled the tagline will "
+"be displayed above it."
+msgstr ""
+
+#: inc/customizer.php:633 inc/customizer.php:647 inc/customizer.php:701 
+#: inc/customizer.php:715 inc/customizer.php:769 inc/customizer.php:783
+msgid "Add Margin (example: 50)"
+msgstr ""
+
+#: functions.php:256
+msgid "Add slider widget here to appear in your front page top area."
+msgstr ""
+
+#: functions.php:220
+msgid "Add widgets here to appear at the top blog area."
+msgstr ""
+
+#: functions.php:229
+msgid "Add widgets here to appear in first page area."
+msgstr ""
+
+#: functions.php:193
+msgid "Add widgets here to appear in your first footer area."
+msgstr ""
+
+#: functions.php:247
+msgid "Add widgets here to appear in your instagram area."
+msgstr ""
+
+#: functions.php:202
+msgid "Add widgets here to appear in your second footer area."
+msgstr ""
+
+#: functions.php:238
+msgid "Add widgets here to appear in your second page area."
+msgstr ""
+
+#: functions.php:184
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:211
+msgid "Add widgets here to appear in your third footer area."
+msgstr ""
+
+#: admin/admin.php:194
+msgid ""
+"Adds a breadcrumb navigation showing the visitor path to their current "
+"location. For details on how to use this plugin visit Breadcrumb NavXT."
+msgstr ""
+
+#: functions.php:684 functions.php:693
+msgid ""
+"After you import this demo, you will have to setup the socials and second "
+"menu separately."
+msgstr ""
+
+#: functions.php:666 functions.php:675
+msgid ""
+"After you import this demo, you will have to setup the socials separatly"
+msgstr ""
+
+#: admin/admin.php:107 admin/admin.php:125 admin/admin.php:143 
+#: admin/admin.php:161 admin/admin.php:179 admin/admin.php:198 
+#: admin/admin.php:220 admin/admin.php:239 admin/admin.php:258 
+#: admin/admin.php:276 admin/admin.php:292 admin/admin.php:313
+msgid "Already activated"
+msgstr ""
+
+#: admin/admin.php:121
+msgid "An e-commerce toolkit that helps you sell anything. Beautifully."
+msgstr ""
+
+#. Author of the theme
+msgid "Anariel Design"
+msgstr ""
+
+#: inc/customizer.php:419
+msgid "Auto Height"
+msgstr ""
+
+#: inc/customizer.php:819
+msgid ""
+"Available if \"Half Width Featured Image\" option is selected in \"Featured "
+"Image Options\" & \"Boxed Style\" option is selected in \"Panel Content "
+"Style\" for this panel."
+msgstr ""
+
+#: inc/customizer.php:831
+msgid "Available if Testimonials are enabled for this panel."
+msgstr ""
+
+#: inc/customizer.php:100 inc/customizer.php:894 inc/customizer.php:1510
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer.php:1429
+msgid "Background Elements 1"
+msgstr ""
+
+#: inc/customizer.php:1441
+msgid "Backgrounds Elements 2"
+msgstr ""
+
+#: inc/widgets.php:536
+msgid "Banner Block"
+msgstr ""
+
+#: functions.php:679
+msgid "Beer"
+msgstr ""
+
+#: functions.php:718
+msgid ""
+"Before you begin, make sure all the required & recommended plugins are "
+"activated."
+msgstr ""
+
+#: functions/block-patterns.php:115
+msgctxt "Block pattern description"
+msgid "A pattern to quickly create 2 columns with media and text."
+msgstr ""
+
+#: functions/block-patterns.php:311
+msgctxt "Block pattern description"
+msgid "A pattern to quickly create 3 column about us."
+msgstr ""
+
+#: functions/block-patterns.php:266
+msgctxt "Block pattern description"
+msgid "A pattern to quickly create 3 column recent post."
+msgstr ""
+
+#: functions/block-patterns.php:60
+msgctxt "Block pattern description"
+msgid "A pattern to quickly create 3 columns with text and image."
+msgstr ""
+
+#: functions/block-patterns.php:471
+msgctxt "Block pattern description"
+msgid "A pattern to quickly create classic menu section."
+msgstr ""
+
+#: functions/block-patterns.php:364
+msgctxt "Block pattern description"
+msgid "A pattern to quickly create list menu section."
+msgstr ""
+
+#: functions/block-patterns.php:182
+msgctxt "Block pattern description"
+msgid "A pattern to quickly create team block."
+msgstr ""
+
+#: functions/block-patterns.php:237
+msgctxt "Block pattern description"
+msgid "A pattern to quickly create the cover section."
+msgstr ""
+
+#: functions/block-patterns.php:27
+msgctxt "Block pattern description"
+msgid "A pattern to quickly create the top hero section."
+msgstr ""
+
+#: inc/customizer.php:1130
+msgid "Blog & Archive Layout"
+msgstr ""
+
+#: inc/customizer.php:967
+msgid "Blog Featured Slider"
+msgstr ""
+
+#: inc/customizer.php:1121
+msgid "Blog Layout & Options"
+msgstr ""
+
+#: inc/customizer.php:963
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer.php:1088
+msgid "Blog Title Block"
+msgstr ""
+
+#: functions.php:218
+msgid "Blog Top Widget Area"
+msgstr ""
+
+#: inc/customizer.php:1521
+msgid "Border Color"
+msgstr ""
+
+#: inc/customizer.php:1453
+msgid "Border Colors"
+msgstr ""
+
+#: inc/customizer.php:341 inc/customizer.php:1022
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer.php:520
+msgid "Boxed Style"
+msgstr ""
+
+#: functions.php:627 admin/admin.php:193
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: admin/admin.php:336
+msgid ""
+"Build Your Dream WordPress Site with Premium Niche Themes for Bloggers & "
+"Charities"
+msgstr ""
+
+#: inc/widgets.php:90 inc/widgets.php:578
+msgid "Button Link"
+msgstr ""
+
+#: inc/widgets.php:88
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer.php:376 inc/customizer.php:1057
+msgid "Caption Background Color"
+msgstr ""
+
+#: inc/customizer.php:351 inc/customizer.php:1032
+msgid "Caption Background Opacity"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "Caption Position"
+msgstr ""
+
+#: inc/customizer.php:387 inc/customizer.php:1068
+msgid "Caption Text Color"
+msgstr ""
+
+#: inc/customizer.php:399 inc/customizer.php:1080
+msgid "Caption Width in Percentage"
+msgstr ""
+
+#: inc/widgets.php:324
+msgid "Category:"
+msgstr ""
+
+#: inc/customizer.php:254
+msgid "Center"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Center Header"
+msgstr ""
+
+#: inc/customizer.php:1351
+msgid "Change the main accent color"
+msgstr ""
+
+#: inc/customizer.php:1312
+msgid "Check this box if you want to hide sidebar on the WooCommerce pages"
+msgstr ""
+
+#: inc/customizer.php:1323
+msgid ""
+"Check this box if you want to hide sidebar on WooCommerce single product page"
+msgstr ""
+
+#: inc/customizer.php:448
+msgid "Choose a page you want to show as a panel content."
+msgstr ""
+
+#: inc/customizer.php:1131
+msgid ""
+"Choose the best blog layout for your site. Also applies to archive pages."
+msgstr ""
+
+#: inc/customizer.php:513
+msgid "Choose the layout of the main panel content."
+msgstr ""
+
+#: inc/customizer.php:531
+msgid ""
+"Choose the number of columns for displaying Child Pages. This feature can be "
+"used if the page you selected in \"Panel Content\" has child pages."
+msgstr ""
+
+#: functions.php:661 inc/customizer.php:954
+msgid "Classic"
+msgstr ""
+
+#: functions/block-patterns.php:470
+msgid "Classic Menu Section"
+msgstr ""
+
+#: admin/admin.php:60
+msgid ""
+"Click \"Customize\" to open the Customizer. Liber has implemented Customizer "
+"and added some useful options to help you style color elements, upload image "
+"logo, to choose different blog layouts and a lot more."
+msgstr ""
+
+#: inc/customizer.php:1333
+msgid "Color Settings"
+msgstr ""
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:621 admin/admin.php:174
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/customizer.php:1369
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/customizer.php:1417
+msgid "Content Border Color"
+msgstr ""
+
+#: inc/customizer.php:1405
+msgid "Content Text Color"
+msgstr ""
+
+#. %s: Name of current post.
+#: inc/widgets.php:491 template-parts/post/content-quote.php:38 
+#: template-parts/post/content-quote.php:47 
+#: template-parts/post/content-excerpt-list.php:38 
+#: template-parts/post/content.php:34 template-parts/post/content.php:43 
+#: template-parts/page/content-menu-classic.php:23 
+#: template-parts/page/content-grid-front.php:40 
+#: template-parts/page/content-menu-list.php:21 
+#: template-parts/page/content-menu.php:22
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#. %s: Name of current post
+#: inc/widgets.php:386 template-parts/post/content-single.php:34 
+#: template-parts/post/content-single-menu.php:24 
+#: template-parts/post/content-single-recipe.php:28 
+#: template-parts/post/content-single-custom.php:20 
+#: template-parts/page/content-testimonial.php:23 
+#: template-parts/page/content-grid.php:23
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. %s: Name of current post
+#: template-parts/page/content-front-page-panel.php:53
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: admin/admin.php:139
+msgid "Control what pages your widgets appear on."
+msgstr ""
+
+#: inc/customizer.php:1463
+msgid "Copyright Settings"
+msgstr ""
+
+#: inc/customizer.php:1486
+msgid "Copyright text"
+msgstr ""
+
+#: functions/block-patterns.php:236
+msgid "Cover Section"
+msgstr ""
+
+#: admin/admin.php:288
+msgid "Custom Google Fonts Plugin"
+msgstr ""
+
+#: admin/admin.php:309
+msgid "Custom Post Type Plugin"
+msgstr ""
+
+#: admin/admin.php:64
+msgid "Customize"
+msgstr ""
+
+#: functions.php:136
+msgid "Dark Pink"
+msgstr ""
+
+#: inc/widgets.php:194
+msgid "Day 1"
+msgstr ""
+
+#: inc/widgets.php:199
+msgid "Day 2"
+msgstr ""
+
+#: inc/widgets.php:204
+msgid "Day 3"
+msgstr ""
+
+#: inc/widgets.php:209
+msgid "Day 4"
+msgstr ""
+
+#: inc/widgets.php:214
+msgid "Day 5"
+msgstr ""
+
+#: inc/widgets.php:219
+msgid "Day 6"
+msgstr ""
+
+#: inc/widgets.php:224
+msgid "Day 7"
+msgstr ""
+
+#: inc/customizer.php:952
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:418
+msgid "Default Height"
+msgstr ""
+
+#: inc/customizer.php:1137
+msgid "Default Layout"
+msgstr ""
+
+#: inc/customizer.php:519 inc/customizer.php:621 inc/customizer.php:1219
+msgid "Default Style"
+msgstr ""
+
+#: functions.php:660
+msgid "Demo Import 1"
+msgstr ""
+
+#: functions.php:669
+msgid "Demo Import 2"
+msgstr ""
+
+#: functions.php:678
+msgid "Demo Import 3"
+msgstr ""
+
+#: functions.php:687
+msgid "Demo Import 4"
+msgstr ""
+
+#: inc/customizer.php:551
+msgid "Disable Featured Image Link"
+msgstr ""
+
+#: inc/customizer.php:564
+msgid "Disable Title Link"
+msgstr ""
+
+#: front-page.php:68 inc/widgets.php:393 inc/template-tags.php:31 
+#: inc/template-tags.php:60 inc/template-tags.php:128 
+#: inc/template-tags.php:152 template-parts/page/content-special.php:33 
+#: template-parts/page/content-page.php:24 
+#: template-parts/page/content-grid-page.php:24 
+#: template-parts/page/content-grid-front.php:45 
+#: template-parts/page/content-testimonial.php:30 
+#: template-parts/page/content-grid.php:28 
+#: template-parts/page/content-front-page-panel.php:58
+msgid "Edit"
+msgstr ""
+
+#. Name of the template
+msgid "Editor Template"
+msgstr ""
+
+#: inc/customizer.php:622 inc/customizer.php:1220
+msgid "Elegant Style"
+msgstr ""
+
+#: functions.php:633 admin/admin.php:215
+msgid "Elementor"
+msgstr ""
+
+#: inc/customizer.php:1475
+msgid "Enable \"scroll to top\" button "
+msgstr ""
+
+#: inc/customizer.php:661
+msgid "Enable Food Menu"
+msgstr ""
+
+#: inc/customizer.php:729
+msgid "Enable Food Menu Title Link"
+msgstr ""
+
+#: inc/customizer.php:934
+msgid "Enable Menu Category Tag"
+msgstr ""
+
+#: inc/customizer.php:577
+msgid "Enable Recent Posts"
+msgstr ""
+
+#: inc/customizer.php:742
+msgid "Enable Testimonials"
+msgstr ""
+
+#: inc/customizer.php:977
+msgid "Enables post slider on the blog page."
+msgstr ""
+
+#: inc/widgets.php:523
+msgid ""
+"Enter Food Menu Category Name or Slug (separate multiple categories by comma)"
+msgstr ""
+
+#: inc/customizer.php:675
+msgid "Enter number of food menu posts you want to show in this panel."
+msgstr ""
+
+#: inc/customizer.php:309 inc/customizer.php:990
+msgid "Enter number of posts to display in the slider."
+msgstr ""
+
+#: inc/customizer.php:591
+msgid "Enter number of recent posts you want to show in this panel."
+msgstr ""
+
+#: inc/customizer.php:756
+msgid "Enter number of testimonial posts you want to show in this panel."
+msgstr ""
+
+#: inc/customizer.php:322 inc/customizer.php:1003
+msgid "Enter post category to display in slider."
+msgstr ""
+
+#: inc/customizer.php:604 inc/customizer.php:688
+msgid "Enter the name of the category you want to display."
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Enter the text for the info"
+msgstr ""
+
+#: functions.php:615
+msgid "Envira Gallery Lite"
+msgstr ""
+
+#: inc/customizer.php:1186
+msgid "Excerpt"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgid "Featured"
+msgstr ""
+
+#: inc/customizer.php:499
+msgid "Featured Image as Page Background"
+msgstr ""
+
+#: inc/customizer.php:492
+msgid "Featured Image Options"
+msgstr ""
+
+#: inc/customizer.php:286
+msgid "Featured Slider"
+msgstr ""
+
+#: inc/customizer.php:334 inc/customizer.php:1015
+msgid "Featured Slider Layout"
+msgstr ""
+
+#: admin/admin.php:22
+msgid "Find more about Liber"
+msgstr ""
+
+#: functions.php:191
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:227
+msgid "First Page Widget Area"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Fixed Header"
+msgstr ""
+
+#: inc/customizer.php:687
+msgid "Food Menu Category"
+msgstr ""
+
+#: inc/customizer.php:924
+msgid "Food Menu Category Page Options"
+msgstr ""
+
+#. Name of the template
+msgid "Food Menu Classic Template"
+msgstr ""
+
+#. Name of the template
+msgid "Food Menu List Template"
+msgstr ""
+
+#: inc/widgets.php:452
+msgid "Food menu post widget."
+msgstr ""
+
+#. Name of the template
+msgid "Food Menu Template"
+msgstr ""
+
+#: inc/customizer.php:842
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:856
+msgid "Footer Widget Area Background Image"
+msgstr ""
+
+#: inc/customizer.php:869
+msgid "Footer Widget Area Background Opacity"
+msgstr ""
+
+#: inc/customizer.php:537
+msgid "Four Columns"
+msgstr ""
+
+#: inc/customizer.php:427
+msgid "Front Page Content/Settings"
+msgstr ""
+
+#: functions.php:254
+msgid "Front Page Slider"
+msgstr ""
+
+#: inc/customizer.php:340 inc/customizer.php:1021
+msgid "Full"
+msgstr ""
+
+#: inc/customizer.php:1185
+msgid "Full Length"
+msgstr ""
+
+#: inc/customizer.php:502
+msgid "Full Width Featured Image"
+msgstr ""
+
+#: admin/admin.php:103
+msgid ""
+"Fully customisable and responsive Instagram timeline widget for WordPress"
+msgstr ""
+
+#: admin/admin.php:39
+#, php-format
+msgid "Getting Started with %s"
+msgstr ""
+
+#: inc/customizer.php:1339
+msgid "Global Accent Color"
+msgstr ""
+
+#: functions.php:558
+msgid "Google Fonts Plugin"
+msgstr ""
+
+#: functions.php:126
+msgid "Green"
+msgstr ""
+
+#. Name of the template
+msgid "Grid Template"
+msgstr ""
+
+#: inc/customizer.php:1139
+msgid "Grid Three"
+msgstr ""
+
+#: inc/customizer.php:1138
+msgid "Grid Two"
+msgstr ""
+
+#: inc/customizer.php:501
+msgid "Half Width Featured Image Left"
+msgstr ""
+
+#: inc/customizer.php:500
+msgid "Half Width Featured Image Right"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "Header Text Info"
+msgstr ""
+
+#: inc/widgets.php:82
+msgid "Heading First Line"
+msgstr ""
+
+#: inc/widgets.php:84
+msgid "Heading Second Line"
+msgstr ""
+
+#: inc/widgets.php:86
+msgid "Heading Third Line"
+msgstr ""
+
+#: functions.php:670
+msgid "Healthy"
+msgstr ""
+
+#: inc/customizer.php:1360
+msgid ""
+"Here you can change color settings for inner pages. To change colors for the "
+"front page, go to \"Front Page Content/Settings\"."
+msgstr ""
+
+#: inc/customizer.php:1341
+msgid "Here you can change the main accent color for the whole site."
+msgstr ""
+
+#: inc/customizer.php:212
+msgid "Hero Caption Background Color"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Hero Caption Background Color on Mobile"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "Hero Caption Text Color and Link Hover Border"
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Hero Image"
+msgstr ""
+
+#: inc/customizer.php:153
+msgid ""
+"Hero image is featured image of the page you select to be your front page. "
+"Caption text is text added to the editor of that same page."
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "Hero Image Opacity"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Hero Overlay Color"
+msgstr ""
+
+#: functions/block-patterns.php:26
+msgid "Hero Section"
+msgstr ""
+
+#: inc/customizer.php:1254
+msgid "Hide Author Bio"
+msgstr ""
+
+#: inc/customizer.php:1497
+msgid "Hide copyright text"
+msgstr ""
+
+#: inc/customizer.php:1196 inc/customizer.php:1291
+msgid "Hide Featured Image"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Hide Hero Image & Caption"
+msgstr ""
+
+#: inc/customizer.php:466
+msgid "Hide Page Title"
+msgstr ""
+
+#: inc/customizer.php:1230
+msgid "Hide Post Date"
+msgstr ""
+
+#: inc/customizer.php:1242
+msgid "Hide Post Footer"
+msgstr ""
+
+#: inc/customizer.php:1166
+msgid "Hide Post Meta"
+msgstr ""
+
+#: inc/customizer.php:1266
+msgid "Hide Related Posts"
+msgstr ""
+
+#: inc/customizer.php:1305
+msgid "Hide sidebar on main and single product page"
+msgstr ""
+
+#: inc/widgets.php:196 inc/widgets.php:226
+msgid "Hours 1"
+msgstr ""
+
+#: inc/widgets.php:201
+msgid "Hours 2"
+msgstr ""
+
+#: inc/widgets.php:206
+msgid "Hours 3"
+msgstr ""
+
+#: inc/widgets.php:211
+msgid "Hours 4"
+msgstr ""
+
+#: inc/widgets.php:216
+msgid "Hours 5"
+msgstr ""
+
+#: inc/widgets.php:221
+msgid "Hours 6"
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.anarieldesign.com/themes/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#: inc/widgets.php:78 inc/widgets.php:191 inc/widgets.php:576
+msgid "Image ALT Text"
+msgstr ""
+
+#: inc/widgets.php:76 inc/widgets.php:189 inc/widgets.php:574
+msgid "Image URL"
+msgstr ""
+
+#: inc/customizer.php:1358
+msgid "Inner Pages Color Settings"
+msgstr ""
+
+#: inc/customizer.php:265
+msgid "Inner Pages Hero Image Opacity"
+msgstr ""
+
+#: functions.php:245
+msgid "Instagram Widget Area"
+msgstr ""
+
+#: functions.php:573 admin/admin.php:102
+msgid "Instagram Widget by WPZOOM"
+msgstr ""
+
+#: admin/admin.php:204
+msgid "Install Breadcrumb NavXT"
+msgstr ""
+
+#: admin/admin.php:185
+msgid "Install Contact Form 7"
+msgstr ""
+
+#: admin/admin.php:226
+msgid "Install Elementor"
+msgstr ""
+
+#: admin/admin.php:113
+msgid "Install Instagram Widget by WPZOOM"
+msgstr ""
+
+#: admin/admin.php:245
+msgid "Install MailChimp for WordPress"
+msgstr ""
+
+#: admin/admin.php:264
+msgid "Install Print O Matic"
+msgstr ""
+
+#: admin/admin.php:167
+msgid "Install Restaurant Reservations"
+msgstr ""
+
+#: admin/admin.php:149
+msgid "Install Widget Visibility"
+msgstr ""
+
+#: admin/admin.php:131
+msgid "Install WooCommerce"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/post/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: admin/admin.php:175
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr ""
+
+#: functions.php:709
+msgid "Latest News"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/customizer.php:253
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:1155
+msgid "Left Sidebar"
+msgstr ""
+
+#. Name of the theme
+#: functions/block-patterns.php:14
+msgid "Liber"
+msgstr ""
+
+#: functions/block-patterns.php:20
+msgid "Liber - Products"
+msgstr ""
+
+#: functions.php:549
+msgid "Liber Custom Post Type"
+msgstr ""
+
+#: inc/widgets.php:453
+msgid "Liber Food Menu Posts"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Liber is a premium responsive WordPress theme optimized for restaurant and "
+"bar websites. Gastronomy websites require niche specific features and Liber "
+"delivers in spades. Let me name a few: Liber features modern clean "
+"responsive layout with many customization options available directly from "
+"the WordPress customizer. From front page layout options, to blog options, "
+"color options and more, it is all there, logically laid out and easy to use. "
+"It is, of course, translation ready and mobile friendly, so no worries your "
+"website will shine in the best light on all devices."
+msgstr ""
+
+#: inc/widgets.php:239
+msgid "Liber Recent Posts"
+msgstr ""
+
+#: inc/widgets.php:347
+msgid "Liber Testimonial Posts"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Liber Theme Options"
+msgstr ""
+
+#: functions.php:708
+msgid "Liber."
+msgstr ""
+
+#: inc/widgets.php:537
+msgid "Liber: Banner Block"
+msgstr ""
+
+#: inc/widgets.php:103
+msgid "Liber: Opening Hours"
+msgstr ""
+
+#: inc/widgets.php:17
+msgid "Liber: Promo Block"
+msgstr ""
+
+#: functions.php:131
+msgid "Light Orange"
+msgstr ""
+
+#: inc/customizer.php:953
+msgid "List"
+msgstr ""
+
+#: functions/block-patterns.php:363
+msgid "List Menu Section"
+msgstr ""
+
+#: functions.php:609 admin/admin.php:234
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: admin/admin.php:235
+msgid ""
+"MailChimp for WordPress by ibericode. Adds various highly effective sign-up "
+"methods to your site."
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Main Boxed Header"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Main Header"
+msgstr ""
+
+#: functions.php:182
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/customizer.php:646 inc/customizer.php:714 inc/customizer.php:782
+msgid "Margin Bottom"
+msgstr ""
+
+#: inc/customizer.php:632 inc/customizer.php:700 inc/customizer.php:768
+msgid "Margin Top"
+msgstr ""
+
+#: functions/block-patterns.php:114
+msgid "Media and Text - Image and Text"
+msgstr ""
+
+#: header.php:60 header.php:94 header.php:117 header-custom.php:60 
+#: header-custom.php:94 header-custom.php:117 header-front.php:63 
+#: header-front.php:97 header-front.php:120 header-home.php:60 
+#: header-home.php:94 header-home.php:117
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:946
+msgid "Menu Category Layout"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Mobile Submenu Border & Second Submenu Border Color"
+msgstr ""
+
+#: admin/admin.php:341
+msgid "More Themes"
+msgstr ""
+
+#: inc/customizer.php:1547 admin/admin.php:333
+msgid "More Themes by Anariel Design"
+msgstr ""
+
+#: 404.php:37
+msgid "Most Used Categories"
+msgstr ""
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/customizer.php:1156
+msgid "No Sidebar"
+msgstr ""
+
+#: template-parts/post/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/widgets.php:310 inc/widgets.php:427
+msgid "Number of columns to show:"
+msgstr ""
+
+#: inc/customizer.php:674
+msgid "Number of food menu posts"
+msgstr ""
+
+#: inc/customizer.php:308 inc/customizer.php:590 inc/customizer.php:989
+msgid "Number of posts"
+msgstr ""
+
+#: inc/widgets.php:308 inc/widgets.php:425 inc/widgets.php:521
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/customizer.php:755
+msgid "Number of testimonials "
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: functions.php:567
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/customizer.php:540
+msgid "One Column"
+msgstr ""
+
+#: inc/widgets.php:238
+msgid "One, two or three column recent post widget."
+msgstr ""
+
+#: inc/widgets.php:346
+msgid "One, two or three column testimonial post widget."
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own language.
+#: functions.php:274
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/widgets.php:102
+msgid "Opening Hours"
+msgstr ""
+
+#: functions.php:121
+msgid "Orange"
+msgstr ""
+
+#. Name of the template
+msgid "Page Builder Template"
+msgstr ""
+
+#: inc/customizer.php:1381
+msgid "Page Title & Breadcrumb Text Color"
+msgstr ""
+
+#: inc/customizer.php:1393
+msgid "Page Title Background/Overlay & Breadcrumb Background Color"
+msgstr ""
+
+#. Name of the template
+msgid "Page with sidebar"
+msgstr ""
+
+#: inc/widgets.php:397 template-parts/post/content-quote.php:55 
+#: template-parts/post/content-single.php:41 
+#: template-parts/post/content.php:51 
+#: template-parts/post/content-single-menu.php:31 
+#: template-parts/post/content-single-recipe.php:35 
+#: template-parts/post/content-single-custom.php:27 
+#: template-parts/page/content-special.php:26 
+#: template-parts/page/content-page.php:17 
+#: template-parts/page/content-grid-page.php:17 
+#: template-parts/page/content-grid-front.php:49 
+#: template-parts/page/content-testimonial.php:34 
+#: template-parts/page/content-page-elementor.php:17 
+#: template-parts/page/content-grid.php:32
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer.php:433
+#, php-format
+msgid "Panel %d"
+msgstr ""
+
+#: inc/customizer.php:530
+msgid "Panel Child Page Columns"
+msgstr ""
+
+#: inc/customizer.php:447
+msgid "Panel Content"
+msgstr ""
+
+#: inc/customizer.php:796
+msgid "Panel Content Background Color"
+msgstr ""
+
+#: inc/customizer.php:512
+msgid "Panel Content Style"
+msgstr ""
+
+#: inc/customizer.php:818
+msgid "Panel Half Width and Boxed Style Background Color"
+msgstr ""
+
+#: inc/customizer.php:479
+msgid "Panel Tagline"
+msgstr ""
+
+#: inc/customizer.php:830
+msgid "Panel Testimonials Border"
+msgstr ""
+
+#: inc/customizer.php:807
+msgid "Panel Text and Border Color"
+msgstr ""
+
+#: inc/custom-header.php:94
+msgid "Pause background video"
+msgstr ""
+
+#: inc/template-tags.php:128
+msgid "Pingback:"
+msgstr ""
+
+#: inc/custom-header.php:93
+msgid "Play background video"
+msgstr ""
+
+#: admin/admin.php:47
+msgid ""
+"Please check the documentation to get better overview of how the theme is "
+"structured."
+msgstr ""
+
+#: admin/admin.php:282
+msgid ""
+"Plugin & license key can be found inside the plugins folder within the main "
+"folder you downloaded"
+msgstr ""
+
+#: admin/admin.php:300 admin/admin.php:321
+msgid "Plugin can be downloaded here"
+msgstr ""
+
+#: admin/admin.php:99
+msgid ""
+"Plugins listed are not mandatory for theme to work! Install only the ones "
+"you need for your website!"
+msgstr ""
+
+#: inc/customizer.php:321 inc/customizer.php:603 inc/customizer.php:1002
+msgid "Post Category"
+msgstr ""
+
+#: inc/customizer.php:1179
+msgid "Post Display"
+msgstr ""
+
+#: inc/customizer.php:616 inc/customizer.php:1213
+msgid "Post Style"
+msgstr ""
+
+#: inc/template-tags.php:74
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: admin/admin.php:272
+msgid "Premium Soliloquy Slider"
+msgstr ""
+
+#: functions.php:72
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:603
+msgid "Print O Matic"
+msgstr ""
+
+#: admin/admin.php:253
+msgid "Print-O-Matic"
+msgstr ""
+
+#: inc/widgets.php:16
+msgid "Promo Block"
+msgstr ""
+
+#: inc/customizer.php:1482
+msgid ""
+"Proudly powered by WordPress. Liber Theme by Anariel Design. All rights "
+"reserved"
+msgstr ""
+
+#: author-bio.php:11
+msgid "Published by"
+msgstr ""
+
+#: template-parts/post/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: functions/block-patterns.php:265
+msgid "Recent Post Grid"
+msgstr ""
+
+#. Name of the template
+msgid "Recipe Template"
+msgstr ""
+
+#: inc/customizer.php:1114
+msgid "Recommended image width is 2600px"
+msgstr ""
+
+#: admin/admin.php:97
+msgid "Recommended Plugins"
+msgstr ""
+
+#: related-posts.php:24
+msgid "Related Posts"
+msgstr ""
+
+#: functions.php:597 admin/admin.php:156
+msgid "Restaurant Reservations"
+msgstr ""
+
+#: inc/customizer.php:255
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:1154
+msgid "Right Sidebar"
+msgstr ""
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:200
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:236
+msgid "Second Page Widget Area"
+msgstr ""
+
+#: functions.php:73
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/customizer.php:438
+msgid ""
+"Select a page whose content should be displayed in this panel. If you "
+"don&rsquo;t select a page this panel will not be displayed."
+msgstr ""
+
+#: admin/admin.php:254
+msgid ""
+"Shortcode that adds a printer icon, allowing the user to print the post or a "
+"specified HTML element in the post."
+msgstr ""
+
+#: inc/customizer.php:296
+msgid "Show featured slider on the front page"
+msgstr ""
+
+#: inc/customizer.php:976
+msgid "Show Post Slider"
+msgstr ""
+
+#: inc/customizer.php:1278
+msgid "Show Post Title For The Post Format Quote"
+msgstr ""
+
+#: inc/customizer.php:1097
+msgid "Show Title Block"
+msgstr ""
+
+#: inc/customizer.php:1147
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:1204
+msgid "Single Post Options"
+msgstr ""
+
+#: header.php:24 header-custom.php:24 header-front.php:24 header-home.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:411
+msgid "Slider Height"
+msgstr ""
+
+#: functions.php:74
+msgid "Social Menu"
+msgstr ""
+
+#: template-parts/post/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your own language.
+#: functions.php:284
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid ""
+"Submenu Background, Mobile Social Background & Mobile Menu Background Color"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Submenu Border Color"
+msgstr ""
+
+#: inc/customizer.php:1542 admin/admin.php:70 admin/admin.php:77
+msgid "Support Page"
+msgstr ""
+
+#: inc/template-tags.php:80
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/widgets.php:80
+msgid "Tagline"
+msgstr ""
+
+#: functions/block-patterns.php:181
+msgid "Team"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by Teko, translate this to 'off'. Do not translate into your own language.
+#: functions.php:279
+msgctxt "Teko font: on or off"
+msgid "on"
+msgstr ""
+
+#. Name of the template
+msgid "Testimonial Template"
+msgstr ""
+
+#: inc/customizer.php:111 inc/customizer.php:905
+msgid "Text Color"
+msgstr ""
+
+#: admin/admin.php:216
+msgid ""
+"The most advanced frontend drag & drop page builder. Create high-end, pixel "
+"perfect websites at record speeds. Any theme, any page, any design."
+msgstr ""
+
+#: admin/admin.php:350
+msgid "Theme Demo"
+msgstr ""
+
+#: inc/customizer.php:1774 admin/admin.php:44
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/customizer.php:1556 admin/admin.php:7
+msgid "Theme Info"
+msgstr ""
+
+#: inc/customizer.php:1772
+msgid "Theme Info Page"
+msgstr ""
+
+#: inc/customizer.php:49 admin/admin.php:57
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:1770
+msgid "Theme Related Links:"
+msgstr ""
+
+#: admin/admin.php:34 admin/admin.php:338
+msgid "Theme Screenshot"
+msgstr ""
+
+#: functions/block-patterns.php:36 functions/block-patterns.php:350 
+#: functions/block-patterns.php:350
+msgctxt "Theme starter content"
+msgid "11:00-23:00"
+msgstr ""
+
+#: functions/block-patterns.php:152
+msgctxt "Theme starter content"
+msgid "5,00€"
+msgstr ""
+
+#: functions/block-patterns.php:424
+msgctxt "Theme starter content"
+msgid "5,50€"
+msgstr ""
+
+#: functions/block-patterns.php:410
+msgctxt "Theme starter content"
+msgid "6,50€"
+msgstr ""
+
+#: functions/block-patterns.php:140 functions/block-patterns.php:378 
+#: functions/block-patterns.php:440
+msgctxt "Theme starter content"
+msgid "7,00€"
+msgstr ""
+
+#: functions/block-patterns.php:456
+msgctxt "Theme starter content"
+msgid "8,00€"
+msgstr ""
+
+#: functions/block-patterns.php:164 functions/block-patterns.php:394
+msgctxt "Theme starter content"
+msgid "9,00€"
+msgstr ""
+
+#: functions/block-patterns.php:205
+msgctxt "Theme starter content"
+msgid "Alex Zela"
+msgstr ""
+
+#: functions/block-patterns.php:191
+msgctxt "Theme starter content"
+msgid "Angela Ema"
+msgstr ""
+
+#: functions/block-patterns.php:350
+msgctxt "Theme starter content"
+msgid "Closed"
+msgstr ""
+
+#: functions/block-patterns.php:136 functions/block-patterns.php:148 
+#: functions/block-patterns.php:160
+msgctxt "Theme starter content"
+msgid ""
+"Cras sodales luctus arcu, ac placerat nunc sagittis a. In at turpis ac nibh "
+"luctus sagittis in ut est"
+msgstr ""
+
+#: functions/block-patterns.php:374 functions/block-patterns.php:390 
+#: functions/block-patterns.php:406 functions/block-patterns.php:420 
+#: functions/block-patterns.php:436 functions/block-patterns.php:452 
+#: functions/block-patterns.php:485 functions/block-patterns.php:505 
+#: functions/block-patterns.php:523 functions/block-patterns.php:543
+msgctxt "Theme starter content"
+msgid ""
+"Cras sodales luctus arcu, ac placerat nunc sagittis a. In at turpis ac nibh "
+"luctus sagittis in ut est, sodales luctus arcu, ac placerat nunc"
+msgstr ""
+
+#: functions/block-patterns.php:320
+msgctxt "Theme starter content"
+msgid ""
+"Cras sodales luctus arcu, ac placerat nunc sagittis a. In at turpis ac nibh "
+"luctus sagittis in ut est."
+msgstr ""
+
+#: functions/block-patterns.php:73 functions/block-patterns.php:87 
+#: functions/block-patterns.php:101
+msgctxt "Theme starter content"
+msgid ""
+"Cras sodales luctus arcu, ac placerat nunc sagittis a. In at turpis ac nibh "
+"luctus sagittis in ut est. Proin sed mi vitae velit convallis gravida "
+"imperdiet eu mauris."
+msgstr ""
+
+#: functions/block-patterns.php:246
+msgctxt "Theme starter content"
+msgid ""
+"Cras sodales luctus arcu, ac placerat nunc sagittis a. In at turpis ac nibh "
+"luctus sagittis in ut est. Proin sed mi vitae velit convallis gravida "
+"imperdiet eu mauris. Cras sodales luctus arcu, ac placerat nunc sagittis a. "
+"In at turpis ac nibh luctus sagittis in ut est."
+msgstr ""
+
+#: functions/block-patterns.php:324
+msgctxt "Theme starter content"
+msgid ""
+"Cras sodales luctus arcu, ac placerat nunc sagittis a. In at turpis ac nibh "
+"luctus sagittis in ut est. Proin sed mi vitae velit convallis gravida "
+"imperdiet eu mauris. Maecenas vehicula quam vel urna pulvinar, quis faucibus "
+"quam pellentesque. Sed vitae pellentesque velit. Etiam nec ornare tortor."
+msgstr ""
+
+#: functions/block-patterns.php:69
+msgctxt "Theme starter content"
+msgid "Delicious"
+msgstr ""
+
+#: functions/block-patterns.php:448 functions/block-patterns.php:577
+msgctxt "Theme starter content"
+msgid "Energy Smoothie"
+msgstr ""
+
+#: functions/block-patterns.php:370 functions/block-patterns.php:481
+msgctxt "Theme starter content"
+msgid "Fitness Smoothie"
+msgstr ""
+
+#: functions/block-patterns.php:416 functions/block-patterns.php:519
+msgctxt "Theme starter content"
+msgid "Fresh Smoothie"
+msgstr ""
+
+#: functions/block-patterns.php:350
+msgctxt "Theme starter content"
+msgid "Fri-Sun"
+msgstr ""
+
+#: functions/block-patterns.php:329
+msgctxt "Theme starter content"
+msgid "Get to know us"
+msgstr ""
+
+#: functions/block-patterns.php:97
+msgctxt "Theme starter content"
+msgid "Healthy"
+msgstr ""
+
+#: functions/block-patterns.php:350
+msgctxt "Theme starter content"
+msgid "Hours"
+msgstr ""
+
+#: functions/block-patterns.php:269
+msgctxt "Theme starter content"
+msgid "Latest Posts"
+msgstr ""
+
+#: functions/block-patterns.php:316
+msgctxt "Theme starter content"
+msgid "Liber Bar"
+msgstr ""
+
+#: functions/block-patterns.php:45
+msgctxt "Theme starter content"
+msgid "Make Reservation"
+msgstr ""
+
+#: functions/block-patterns.php:195 functions/block-patterns.php:209 
+#: functions/block-patterns.php:223
+msgctxt "Theme starter content"
+msgid ""
+"Malesuada nibh montes fusce cum eleifend fringilla commodo mattis tempor "
+"platea montes. Malesuada nibh montes fusce cum eleifend. Malesuada nibh "
+"montes fusce cum eleifend fringilla commodo mattis tempor platea montes."
+msgstr ""
+
+#: functions/block-patterns.php:36
+msgctxt "Theme starter content"
+msgid "MO-SA"
+msgstr ""
+
+#: functions/block-patterns.php:350
+msgctxt "Theme starter content"
+msgid "Mon-Thu"
+msgstr ""
+
+#: functions/block-patterns.php:36
+msgctxt "Theme starter content"
+msgid "OPENING HOURS:"
+msgstr ""
+
+#: functions/block-patterns.php:386 functions/block-patterns.php:501
+msgctxt "Theme starter content"
+msgid "Pinky Smoothie"
+msgstr ""
+
+#: functions/block-patterns.php:402 functions/block-patterns.php:557
+msgctxt "Theme starter content"
+msgid "Power Smoothie"
+msgstr ""
+
+#: functions/block-patterns.php:144
+msgctxt "Theme starter content"
+msgid "Pumpkin Cake"
+msgstr ""
+
+#: functions/block-patterns.php:132
+msgctxt "Theme starter content"
+msgid "Raw Salad"
+msgstr ""
+
+#: functions/block-patterns.php:123
+msgctxt "Theme starter content"
+msgid "Special Offer"
+msgstr ""
+
+#: functions/block-patterns.php:432 functions/block-patterns.php:539
+msgctxt "Theme starter content"
+msgid "Strawberries Smoothie"
+msgstr ""
+
+#: functions/block-patterns.php:219
+msgctxt "Theme starter content"
+msgid "Talinka Bubi"
+msgstr ""
+
+#: functions/block-patterns.php:83
+msgctxt "Theme starter content"
+msgid "Tasty"
+msgstr ""
+
+#: functions/block-patterns.php:251
+msgctxt "Theme starter content"
+msgid "Tell me more"
+msgstr ""
+
+#: functions/block-patterns.php:40
+msgctxt "Theme starter content"
+msgid ""
+"The Liber was founded at the beginning of 2014. It celebrates healthy, "
+"vegetarian &amp; delicious recipes created from natural ingredients. These "
+"tasty recipes can be enjoyed in our bar."
+msgstr ""
+
+#: functions/block-patterns.php:156
+msgctxt "Theme starter content"
+msgid "Vegan Falafel"
+msgstr ""
+
+#: functions/block-patterns.php:350
+msgctxt "Theme starter content"
+msgid "Week"
+msgstr ""
+
+#: functions/block-patterns.php:350
+msgctxt "Theme starter content"
+msgid "Wendsday"
+msgstr ""
+
+#: admin/admin.php:83 admin/admin.php:90
+msgid "Theme Update Logs"
+msgstr ""
+
+#: admin/admin.php:73
+msgid "There is a solution to every problem!"
+msgstr ""
+
+#: functions.php:209
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: inc/customizer.php:662
+msgid "This will display Food Menu custom posts in this panel."
+msgstr ""
+
+#: inc/customizer.php:743
+msgid "This will display Testimonials custom posts in this panel."
+msgstr ""
+
+#: inc/customizer.php:578
+msgid "This will display your recent posts in this panel."
+msgstr ""
+
+#: inc/customizer.php:538
+msgid "Three Columns"
+msgstr ""
+
+#: inc/customizer.php:1113
+msgid "Title Block Background Image"
+msgstr ""
+
+#: inc/widgets.php:74 inc/widgets.php:186 inc/widgets.php:306 
+#: inc/widgets.php:423 inc/widgets.php:519 inc/widgets.php:572
+msgid "Title:"
+msgstr ""
+
+#: inc/customizer.php:493
+msgid ""
+"To use these options, featured image needs to be uploaded in the page editor "
+"of the page you selected in \"Panel Content\""
+msgstr ""
+
+#: inc/customizer.php:539
+msgid "Two Columns"
+msgstr ""
+
+#: inc/customizer.php:88
+msgid "Two Row Boxed Header"
+msgstr ""
+
+#: inc/customizer.php:87
+msgid "Two Row Header"
+msgstr ""
+
+#: author-bio.php:35
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: admin/admin.php:86
+msgid "View the full change log for our themes."
+msgstr ""
+
+#: inc/customizer.php:1537 admin/admin.php:51
+msgid "Visit Documentation"
+msgstr ""
+
+#: admin/admin.php:17
+#, php-format
+msgid "Welcome to %1s %2s"
+msgstr ""
+
+#: admin/admin.php:7
+msgid "Welcome to Liber"
+msgstr ""
+
+#: inc/customizer.php:916
+msgid "Widget List Border Color"
+msgstr ""
+
+#: admin/admin.php:138
+msgid "Widget Visibility"
+msgstr ""
+
+#: functions.php:579
+msgid "Widget Visibility Without Jetpack"
+msgstr ""
+
+#: functions.php:688
+msgid "Wine"
+msgstr ""
+
+#: admin/admin.php:120
+msgid "WooCommerce"
+msgstr ""
+
+#: functions.php:585
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/customizer.php:1302
+msgid "WooCommerce Options"
+msgstr ""
+
+#. Name of the template
+msgid "WooCommerce Shop Template"
+msgstr ""
+
+#: functions.php:591
+msgid "WP Google Maps"
+msgstr ""
+
+#: inc/customizer.php:412
+msgid ""
+"You can have default height (700px) or auto height (addapting to the image "
+"height)."
+msgstr ""
+
+#: inc/customizer.php:1148
+msgid ""
+"You can have no sidebar or change the position of the sidebar. Also applies "
+"to archive & single post pages."
+msgstr ""
+
+#: inc/template-tags.php:148
+msgid "Your comment is awaiting moderation."
+msgstr ""

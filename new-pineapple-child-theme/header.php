@@ -20,6 +20,13 @@
 </head>
 
 <body <?php body_class(); ?>>
+	
+	<div style="display: block; background: url('https://www.eliteislandresorts.com/wp-content/uploads/2022/05/finalback.jpg'); text-align: center;">
+		<a href="https://www.eliteislandresorts.com/antiguamecomefrom/?_ga=2.182713894.1035513885.1652714524-332370427.1629744288">
+			<img src="https://www.eliteislandresorts.com/wp-content/uploads/2022/05/banner_today_desktop.png" style="max-width: 100%; display: inline-block;">
+		</a>
+	</div>
+
 <?php wp_body_open(); ?>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'liber' ); ?></a>

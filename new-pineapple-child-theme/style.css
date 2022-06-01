@@ -345,3 +345,7 @@ hr.wp-block-separator{
 .popup .bt-close {font-size:0;width:25px;height:25px;background:#fff;position:absolute;right:0;top:0;cursor:pointer;}
 .popup .bt-close:before {content:"X";position:absolute;top:0;right:0;font-size:17px;width:100%;text-align:center;line-height:25px;color:#37aedf;}
 
+#cookie-law-info-bar a{
+    color: #fff;
+    text-decoration: underline;
+}

@@ -71,7 +71,7 @@
 						RESERVATIONS - <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>
 
 					<?php else : ?>
-						RESERVATIONS - <a href="tel: 800.858.4618">800.858.4618</a>
+						RESERVATIONS - <a href="tel: 866.237.1785">866.237.1785</a>
 					
 					<?php endif;?>
 

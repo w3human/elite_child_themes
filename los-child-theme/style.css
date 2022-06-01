@@ -11,15 +11,26 @@
  Tags: left-sidebar, right-sidebar, grid-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, footer-widgets, food-and-drink, blog
 */
 
-/*@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body, .widget-title {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Cormorant Infant', serif; 
-}*/
+    font-family: 'MonteCarlo', cursive; text-transform: capitalize;
+}
+
+h1{
+    font-size: 80px;
+}
+
+.widget-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 
 body{
     color: #004987;
@@ -115,20 +126,47 @@ h6{
     border-bottom: 1px solid transparent;
 }
 
-#main_booking_top {background:#efeedd;color:#155741;padding:15px;position:absolute;right:5%;top:176px;}
+#main_booking_top {background:#efeedd;color:#155741;padding:15px;position:absolute;right:5%;top:167px;}
 #main_booking_top .bt-close {font-size:0;width:25px;height:25px;background:#fff;position:absolute;right:0;top:0;cursor:pointer;}
 #main_booking_top .bt-close:before {content:"X";position:absolute;top:0;right:0;font-size:17px;width:100%;text-align:center;line-height:25px;color:#155741;}
 #main_booking_top .header__book__module {padding: 30px 0 0 0;}
-#main_booking_top .header__book__module .sblink a {color: #fff;text-decoration: none;}
+#main_booking_top .header__book__module .sblink a {color: #000; text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    line-height: 24px;
+    font-size: 13px;
+    padding: 7px 15px;}
 #main_booking_top .header__book__module .sblink .sbLinkSp {padding: 0 10px 0 0;}
-#main_booking_top .header__book__module .sblink a.t-selected {font-weight: 700;text-decoration: underline;}
-#main_booking_top .header__book__module .as-itemi {float: left;width: 100%;margin: 0;}
+#main_booking_top .header__book__module .sblink a.t-selected {font-weight: 700;text-decoration: underline; background: #155741; color: #fff;}
+#main_booking_top .header__book__module .as-itemi {text-align: right;width: 100%;margin: 0;}
 #main_booking_top .header__book__module .as-itemi .k-button {min-height: 0;line-height: 1;padding: 10px 20px; background-color: #155741; color:  #fff; border: 0px;}
 #main_booking_top .header__book__module .as-itemi .k-button:hover {background:#155741;}
-#main_booking_top a {color: #fff !important;}
+
+#main_booking_top .sbwrap{
+    background: #efeedd;
+}
+
+#main_booking_top .k-dropdown-wrap {
+    padding-top: 4px;
+    height: 26px;
+}
 
 #main_booking_top .rescnuo a:hover{
     color: #099cc8;
+}
+
+#main_booking_top .as-itemtitle {
+    color: #888a88;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 27px;
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 767px) {
@@ -248,6 +286,18 @@ hr.wp-block-separator{
     background-color: #efeedd;
 }
 
+.has-color-red-color,
+.wp-block-button.is-style-outline .wp-block-button__link.has-color-red-color,
+.entry-content a.wp-block-button__link.is-style-outline.has-color-red-color,
+.wp-block-button__link.has-color-red-color {
+    color: #62373a;
+}
+
+.has-color-red-background-color,
+.wp-block-button__link.has-color-red-background-color {
+    background-color: #62373a;
+}
+
 .has-color-white-color,
 .wp-block-button.is-style-outline .wp-block-button__link.has-color-white-color,
 .entry-content a.wp-block-button__link.is-style-outline.has-color-white-color,
@@ -334,3 +384,48 @@ hr.wp-block-separator{
 .popup .bt-close {font-size:0;width:25px;height:25px;background:#fff;position:absolute;right:0;top:0;cursor:pointer;}
 .popup .bt-close:before {content:"X";position:absolute;top:0;right:0;font-size:17px;width:100%;text-align:center;line-height:25px;color:#37aedf;}
 
+
+.wp-block-buttons > .wp-block-button{
+    
+    font-family: 'Open Sans', Arial, sans-serif;
+
+}
+
+/* OLD ICONS */
+.left-top-language a.languages-text{margin:0 20px 0 0;padding:0 0 0 25px;text-transform:uppercase;background:url(images/world-white.png) no-repeat left;float:left;}
+.social-text{padding:0 0 0 25px;background:url(images/social-icon-top.png) no-repeat left;}
+
+.rate{float:left;width:auto;background:url(images/five-star.jpg) no-repeat center;width:95px;height:15px;margin:0 0 0 15px;}
+.room-detail{float:left;width:100%;text-align:center;padding:30px 0 25px 0;border-bottom:2px solid #f9f9f9;margin:0 0 20px 0;letter-spacing:1px;}
+.room-detail ul{padding:0;list-style:none;margin:0;}
+.room-detail ul li{display:inline-block;width:33.33%;padding:60px 0 0 0;}
+.room-detail ul li.guest{background:url(images/guest-icon.jpg) no-repeat center top;}
+.room-detail ul li.area{background:url(images/area-icon.jpg) no-repeat center top;}
+.room-detail ul li.per-night-price{background:url(images/per-night-icon.jpg) no-repeat center top;}
+.room-desc{float:left;width:100%;letter-spacing:1px;font-size:14px;line-height:27px;border-bottom:2px solid #f9f9f9;padding:0 0 20px 0;margin:0 0 20px 0;}
+.room-aminites{float:left;width:100%;}
+.room-aminites{float:left;width:100%;letter-spacing:1px;}
+.room-aminites ul{margin:0;list-style:none;}
+.room-aminites ul li{float:left;width:33.33%;padding:15px 0 15px 40px;box-sizing:border-box;}
+.room-aminites ul li.king_beds{background:url(images/king-beds-icon.jpg) no-repeat left center;}
+.room-aminites ul li.television{background:url(images/television-icon.jpg) no-repeat left center;}
+.room-aminites ul li.no_smoking{background:url(images/no-smoking-icon.jpg) no-repeat left center;}
+.room-aminites ul li.private_bathroom{background:url(images/private-bathroom-icon.jpg) no-repeat left center;}
+.room-aminites ul li.wifi{background:url(images/wifi-icon.jpg) no-repeat left center;}
+.room-aminites ul li.breakfast{background:url(images/breakfast-icon.jpg) no-repeat left center;}
+.room-aminites ul li.welcome_drink{background:url(images/welcome_drink-icon.jpg) no-repeat left center;}
+
+.footer-social{margin:30px 0;float:left;width:100%;}
+.footer-social li{float:left;font-size:0;width:20px;height:20px;}
+.footer-social li a{float:left;width:20px;height:20px;}
+.footer-social li.instagram{background:url(images/insta-icon2.png) no-repeat center;background-size:100%;margin-right:20px;}
+.footer-social li.twitter{background:url(images/twit-icon.png) no-repeat center;background-size:100%;margin-right:20px;}
+.footer-social li.facebook{background:url(images/facebook-icon.png) no-repeat center;background-size:100%;margin-right:20px;}
+.footer-social li.pinterest{background:url(images/pinterest-icon.png) no-repeat center;background-size:100%;margin-right:20px;}
+.footer-social li.you-tube{background:url(images/you-tube-icon.png) no-repeat center;background-size:100%;margin-right:20px;}
+
+.booking-box .rating{margin:-35px 0 0 0;padding:0 0 0 30px;color:#fff;text-transform:uppercase;letter-spacing:2px;font-size:11px;box-sizing:border-box;}
+.booking-box .rating span{float:left;}
+.booking-box .rating .rate{background:url(images/listing-rating-icons.png) no-repeat center left;margin:0 0 0 10px;}
+.listing-page-content-wrap{float:left;width:100%;padding:30px;box-sizing:border-box;}
+.room-title a {text-decoration: none;color: #155741;}

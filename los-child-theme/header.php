@@ -24,7 +24,7 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'liber' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
-		<div class="topbar wrapper" style="">
+		<div class="topbar wrapper" style="font-weight: bold;">
 			<div class="inner">
 				<?php if (elite_is_euro()) : ?>
 					Reservations: <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>  
@@ -154,7 +154,7 @@
 				<div class="header__book wrap">
 					<div class="bt-close">Close</div>
 
-					<div clas ="rescnuo" style="color: #fff; font-weight: bold; text-align: center">
+					<div clas ="rescnuo" style="text-align: center; font-weight: bold;">
 						<?php if (elite_is_euro()) : ?>
 							RESERVATIONS - <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>
 
