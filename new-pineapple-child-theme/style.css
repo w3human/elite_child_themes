@@ -58,6 +58,20 @@ h6{
     box-sizing: border-box;
 }
 
+a {
+    border-bottom: 0px solid transparent;
+    color: #3a8014;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    border-bottom: 0px solid #404040;
+    color: #404040;
+    transition: all .3s;
+}
+
 .datepick-popup {
     z-index: 99999;
 }

@@ -30,7 +30,7 @@
 					Reservations: <a href="tel: 44 (0) 1245 45 99 06">44 (0) 1245 45 99 06</a>  
 
 				<?php else : ?>
-					Reservations: <a href="tel: 866.237.1785">866.237.1785</a>  
+					Reservations: <a href="tel: 800.858.4618">800.858.4618</a> & <a href="954.481.8787">954.481.8787</a>
 
 				<?php endif; ?>
 

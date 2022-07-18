@@ -17,7 +17,7 @@ function elite_book_now() {
             jQuery('.header-inner #primary-menu').append('<li class="menu-item-book"><a href="https://eliteislandholidays.com/book/main.aspx?Clear=True&resort=pineapple" target="_blank" class="btn book-now " style="display: inline-block;">Book Now</a></li>');
         }
         else {
-            jQuery('.header-inner #primary-menu').append('<li class="menu-item-book"><a href="https://losestablos.eliteislandvacations.com/"   target="_blank" class="btn book-now main_booking_top_link" style="display: inline-block;" onclick="event.preventDefault();">Book Now</a></li>');
+            jQuery('.header-inner #primary-menu').append('<li class="menu-item-book"><a href="https://losestablos.eliteislandvacations.com/"   target="_blank" class="btn book-now main_booking_top_link" style="display: inline-block;">Book Now</a></li>');
         }
 
           jQuery(".main_booking_top_link").hover(
@@ -69,8 +69,12 @@ function elite_book_now() {
 
     }
     else {
-        // add euro here
-        jQuery('#primary-menu').append('<li class="menu-item-book"><a href="https://losestablos.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: block; text-align: center;" onclick="event.preventDefault();">Book Now</a></li>');
+        if (_is_euro == '1' ) {
+            jQuery('#primary-menu').append('<li class="menu-item-book"><a href="https://eliteislandholidays.com/book/main.aspx?Clear=True&resort=losestablos" target="_blank" class="btn book-now main_booking_top_link" style="display: block; text-align: center;">Book Now</a></li>');
+        }
+        else {
+            jQuery('#primary-menu').append('<li class="menu-item-book"><a href="https://losestablos.eliteislandvacations.com/" target="_blank" class="btn book-now main_booking_top_link" style="display: block; text-align: center;">Book Now</a></li>');
+        }
     }
 }
 
